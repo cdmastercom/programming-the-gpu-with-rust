@@ -92,7 +92,7 @@ pub fn main_fs(
 
 # Modularity and Reusability
 
-```
+```rust
 mod common {
     pub fn saturate(x: f32) -> f32 {
         x.max(0.0).min(1.0)
